@@ -63,26 +63,7 @@ end
 end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
-holiday_supplies = {
-  :winter => {
-    :christmas => ["Lights", "Wreath"],
-    :new_years => ["Party Hats"]
-  },
-  :summer => {
-    :fourth_of_july => ["Fireworks", "BBQ"]
-  },
-  :fall => {
-    :thanksgiving => ["Turkey"]
-  },
-  :spring => {
-    :memorial_day => ["BBQ"]
-  }
-}
 
-holiday_hash[season][holiday_name] = supply_array
-holiday_hash
-end
-end
 end
 
 def all_winter_holiday_supplies(holiday_hash)
