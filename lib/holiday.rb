@@ -58,6 +58,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
     :memorial_day => ["BBQ"]
   }
 }
+
  holiday_hash[:spring][:memorial_day] << supply
  holiday_hash
 end
